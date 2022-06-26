@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(#00ffa1, blue);
+}
+.dp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  height: auto;
+  max-width: 120px;
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(59, 53, 46);
+  padding: 13px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-width: 2px;
+  padding: 20px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 1s;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+}
